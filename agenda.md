@@ -8,8 +8,8 @@
 
 Read the [jekyll/gh-pages basics](https://pages.github.com/) and a [more in-depth tutorial](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/), and/or yet [another tutorial](http://24ways.org/2013/get-started-with-github-pages/).
 
-> Presentation: some rules of thumb for good (static) graphs?
-> Presentation: serving jekyll locally; including different kinds of content
+> - Presentation: some rules of thumb for good (static) graphs?
+> - Presentation: serving jekyll locally; including different kinds of content
    
 ## 2015-02-05 ggplot and grammar
 
