@@ -1,5 +1,5 @@
 ## 2015-01-20 intro, some critiques, questionnaire
-## 2015-01-22 analyze the questionnaire, set up your repo
+## 2015-01-22 analyze the [questionnaire](https://docs.google.com/spreadsheets/d/19a0O6C14zButypjcnWictvKWeyPjPjQdrps-UXzPDf8/), set up your repo
              
 ## 2015-01-27 **Malecki out** [hadley video](https://www.youtube.com/watch?v=TaxJwC_MP9Q)
 ## 2015-01-29 **Malecki out** [lisa video](https://archive.org/details/WhatMakesAGoodDataVisualization)
