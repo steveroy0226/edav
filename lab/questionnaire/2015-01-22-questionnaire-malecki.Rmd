@@ -6,9 +6,15 @@ output: html_document
 ---
 
 ```{r}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 install.packages('RCurl')
 library(RCurl)
+=======
+#install.packages('RCurl')
+library(RCurl)
+library(ggplot2)
+>>>>>>> FETCH_HEAD
 con <- getURL("https://docs.google.com/spreadsheets/d/19a0O6C14zButypjcnWictvKWeyPjPjQdrps-UXzPDf8/export?format=csv", ssl.verifypeer = FALSE)
 df <- read.csv(textConnection(con), stringsAsFactors=FALSE,
                check.names=FALSE)
@@ -32,6 +38,7 @@ makeOrderedFactor <- function(col, levels){
 }
 mrLogical <- t(sapply(df[['Baseline experience']], expandSelections, 
                       options=mrOptions))
+<<<<<<< HEAD
 =======
 library(RCurl)
 con <- getURL("https://docs.google.com/spreadsheets/d/19a0O6C14zButypjcnWictvKWeyPjPjQdrps-UXzPDf8/export?format=csv")
@@ -40,5 +47,18 @@ df <- read.csv(textConnection(con), stringsAsFactors=FALSE,
 
 >>>>>>> Stashed changes
 
+=======
+
+colSums(mrLogical)
+
+plot(colSums(mrLogical))
+barplot(colSums(mrLogical))
+qplot(colSums(mrLogical))
+plotdf <- data.frame(
+    count=colSums(mrLogical),
+    item=factor(colnames(mrLogical)))
+plotdf$item <- with(plotdf, reorder(item, count))
+ggplot(plotdf, aes(y=count, x=item)) + geom_bar(stat="identity") + coord_flip()
+>>>>>>> FETCH_HEAD
 
 ```
