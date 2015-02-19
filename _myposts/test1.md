@@ -17,4 +17,4 @@ map$tileLayer(provider = 'Stamen.TonerLite')
 ```
 Hello
 
-<iframe src=' figure/unnamed-chunk-2-1.html ' scrolling='no' frameBorder='0' seamless class='rChart leaflet ' id=iframe- chartc882991e53d ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+<iframe src=' figure/unnamed-chunk-2-1.html ' scrolling='no' frameBorder='0' seamless class='rChart leaflet ' id=iframe- chartc883c211a44 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
