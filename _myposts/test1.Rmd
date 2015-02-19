@@ -17,5 +17,5 @@ map$tileLayer(provider = 'Stamen.TonerLite')
 Hello
 
 ```{r, echo=FALSE, results='asis',comment=NA}
-map$show('iframesrc',cdn='TRUE')
+map$show(cdn='TRUE')
 ```
