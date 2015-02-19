@@ -67,21 +67,21 @@ n1$show('iframesrc', cdn = TRUE)
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chartc8829033824&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chartc885fd08ca2&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchartc8829033824()
+      drawchartc885fd08ca2()
     });
-    function drawchartc8829033824(){  
+    function drawchartc885fd08ca2(){  
       var opts = {
- &quot;dom&quot;: &quot;chartc8829033824&quot;,
+ &quot;dom&quot;: &quot;chartc885fd08ca2&quot;,
 &quot;width&quot;:    600,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chartc8829033824&quot; 
+&quot;id&quot;: &quot;chartc885fd08ca2&quot; 
 },
         data = [
  {
@@ -232,7 +232,7 @@ n1$show('iframesrc', cdn = TRUE)
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chartc8829033824'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chartc885fd08ca2'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
  
 ---
@@ -260,21 +260,21 @@ n1$show('inline', include_assets = TRUE, cdn = TRUE)
     height: 400px;
   }  
   </style>
-<div id = 'chartc8829033824' class = 'rChart nvd3'></div>
+<div id = 'chartc885fd08ca2' class = 'rChart nvd3'></div>
 <script type='text/javascript'>
  $(document).ready(function(){
-      drawchartc8829033824()
+      drawchartc885fd08ca2()
     });
-    function drawchartc8829033824(){  
+    function drawchartc885fd08ca2(){  
       var opts = {
- "dom": "chartc8829033824",
+ "dom": "chartc885fd08ca2",
 "width":    600,
 "height":    400,
 "x": "Hair",
 "y": "Freq",
 "group": "Eye",
 "type": "multiBarChart",
-"id": "chartc8829033824" 
+"id": "chartc885fd08ca2" 
 },
         data = [
  {
