@@ -9,47 +9,9 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-## Create Chart
- 
-Let us first create a simple barplot using NVD3
- 
-```{r chart1, tidy = F}
-library(rCharts)
-hair_eye_male = subset(as.data.frame(HairEyeColor), Sex == "Male")
-n1 <- nPlot(Freq ~ Hair, group = 'Eye',
-data = hair_eye_male, type = 'multiBarChart'
-)
-n1$set(width = 600)
+```{r 'Fig', echo=FALSE, results='asis',comment=NA}
+map = Leaflet$new()
+map$setView(c(40.73846, -73.99413), 16)
+map$tileLayer(provider = 'Stamen.TonerLite')
+map$save('figure/Fig.html', standalone = TRUE)
 ```
- 
-We need to set the chunk options `comment = NA` and `results = "asis"` so that the resulting html is rendered asis and not marked up (which is the default in knitr). Make sure to set `cache = F` for this chunk so that it is always run.
- 
-```{r setup, cache = F}
-library(knitr)
-opts_chunk$set(comment = NA, results = 'asis', comment = NA, tidy = F)
-```
- 
- 
----
- 
-## Embed Option 1: IFrame Inline
- 
-The first option is to embed the chart as an inline iframe. It has the advantage of keeping the html standalone, but isolating the chart from the html on the page, thereby avoiding css and js conflicts. However, this feature is [not supported by IE and Opera](http://www.w3schools.com/tags/att_iframe_srcdoc.asp).
- 
-```{r chart2}
-n1$show('iframesrc', cdn = TRUE)
-```
-
-```{r}
-n1
-```
- 
----
- 
-## Embed Option 2: Inline
- 
-This option embeds the chart inline in the html. It should work in all browsers that the charting library being used supports. However, it is susceptible to css and js conflicts.
- 
-```{r chart3}
-n1$show('inline', include_assets = TRUE, cdn = TRUE)
-``` 
