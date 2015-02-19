@@ -67,21 +67,21 @@ n1$show('iframesrc', cdn = TRUE)
   &lt;/head&gt;
   &lt;body &gt;
     
-    &lt;div id = &#039;chartc885fd08ca2&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
+    &lt;div id = &#039;chartc882c99adb1&#039; class = &#039;rChart nvd3&#039;&gt;&lt;/div&gt;    
     &lt;script type=&#039;text/javascript&#039;&gt;
  $(document).ready(function(){
-      drawchartc885fd08ca2()
+      drawchartc882c99adb1()
     });
-    function drawchartc885fd08ca2(){  
+    function drawchartc882c99adb1(){  
       var opts = {
- &quot;dom&quot;: &quot;chartc885fd08ca2&quot;,
+ &quot;dom&quot;: &quot;chartc882c99adb1&quot;,
 &quot;width&quot;:    600,
 &quot;height&quot;:    400,
 &quot;x&quot;: &quot;Hair&quot;,
 &quot;y&quot;: &quot;Freq&quot;,
 &quot;group&quot;: &quot;Eye&quot;,
 &quot;type&quot;: &quot;multiBarChart&quot;,
-&quot;id&quot;: &quot;chartc885fd08ca2&quot; 
+&quot;id&quot;: &quot;chartc882c99adb1&quot; 
 },
         data = [
  {
@@ -232,8 +232,15 @@ n1$show('iframesrc', cdn = TRUE)
     
     &lt;script&gt;&lt;/script&gt;    
   &lt;/body&gt;
-&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chartc885fd08ca2'> </iframe>
+&lt;/html&gt; ' scrolling='no' frameBorder='0' seamless class='rChart  nvd3  ' id='iframe-chartc882c99adb1'> </iframe>
  <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+
+
+```r
+n1
+```
+
+<iframe src=' figure/unnamed-chunk-1-1.html ' scrolling='no' frameBorder='0' seamless class='rChart nvd3 ' id=iframe- chartc882c99adb1 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
  
 ---
  
@@ -260,21 +267,21 @@ n1$show('inline', include_assets = TRUE, cdn = TRUE)
     height: 400px;
   }  
   </style>
-<div id = 'chartc885fd08ca2' class = 'rChart nvd3'></div>
+<div id = 'chartc882c99adb1' class = 'rChart nvd3'></div>
 <script type='text/javascript'>
  $(document).ready(function(){
-      drawchartc885fd08ca2()
+      drawchartc882c99adb1()
     });
-    function drawchartc885fd08ca2(){  
+    function drawchartc882c99adb1(){  
       var opts = {
- "dom": "chartc885fd08ca2",
+ "dom": "chartc882c99adb1",
 "width":    600,
 "height":    400,
 "x": "Hair",
 "y": "Freq",
 "group": "Eye",
 "type": "multiBarChart",
-"id": "chartc885fd08ca2" 
+"id": "chartc882c99adb1" 
 },
         data = [
  {
