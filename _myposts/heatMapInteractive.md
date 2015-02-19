@@ -56,10 +56,10 @@ L$setTemplate(afterScript = sprintf("
 ))
 
 #L$save('/home/steveroy/Desktop/NYPD_Motor_Data/heatMap.html', cdn = TRUE)
-
+L$set(width = 1450, height = 800)
 L
 ```
 
 ```
-## <iframe src=' figure/unnamed-chunk-1-1.html ' scrolling='no' frameBorder='0' seamless class='rChart leaflet ' id=iframe- chartc8813f05636 ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
+## <iframe src=' figure/unnamed-chunk-1-1.html ' scrolling='no' frameBorder='0' seamless class='rChart leaflet ' id=iframe- chartc8867fbeeee ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 ```
