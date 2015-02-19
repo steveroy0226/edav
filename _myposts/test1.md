@@ -9,14 +9,9 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-
-```r
+```{S}
 map = Leaflet$new()
 map$setView(c(40.73846, -73.99413), 16)
 map$tileLayer(provider = 'Stamen.TonerLite')
 map
-```
-
-```
-## <iframe src=' figure/unnamed-chunk-1-1.html ' scrolling='no' frameBorder='0' seamless class='rChart leaflet ' id=iframe- chartc885753505b ></iframe> <style>iframe.rChart{ width: 100%; height: 400px;}</style>
 ```
