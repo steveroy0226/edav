@@ -13,5 +13,7 @@ When you click the **Knit** button a document will be generated that includes bo
 map = Leaflet$new()
 map$setView(c(40.73846, -73.99413), 16)
 map$tileLayer(provider = 'Stamen.TonerLite')
-map
+
+map3$save('figure/map3.html')
+cat('<iframe src="figure/map3.html" width=100%, height=600></iframe>')
 ```
