@@ -78,5 +78,5 @@ P<- ggplot(dat, aes(monthweek, weekdayf, fill = dat$Freq)) +
     labs(title = "NYPD Vehicle Collisions Time-Series Calendar Heatmap") +  xlab("Week of Month") + ylab(" ")
 P
 ```
-![NYPD Motor Vehicle Collisions Calendar Heatmap](/assets/MiniAssigment_dvl2110_heatmap.png)
+![NYPD Motor Vehicle Collisions Calendar Heatmap]({{ site.baseurl }}/assets/R_MiniAssigment_dvl2110_heatmap.png)
 
