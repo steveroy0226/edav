@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 # NYC Collision Data Investigation
 In this analysis I look at data from the NYPD Collisions Data Set for 2014 and 2015 through February 10.
 
