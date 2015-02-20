@@ -1,14 +1,9 @@
 ---
-Author: Dennis Lyubyvy
+author: Dennis Lyubyvy
 layout: post
-Email: dvl2110@columbia.edu
-Columbia University Spring 2015
-Course: W4701 Exploratory Data Analysis and Visualization
-Instructor: Michael J. Malecki
-Feb 12, 2015
-Code: https://github.com/denniskorablev/NYPD-Motor-Vehicle-Collisions-API-for-R 
-Data source: http://dev.socrata.com/foundry/#/data.cityofnewyork.us/h9gi-nx95
+description: mini-assignment
 ---
+
 
 ### NYPD Motor Vehicle Collisions API
 
