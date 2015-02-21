@@ -10,10 +10,10 @@ tags: assignments
 Here is a first-cut time-domain analysis of the vehicle collisions data. 
 
 
-[Rendered R Markdown]({{baseurl}}/assets/aha2140/collision-analysis-1.html)
+[Rendered R Markdown]({{site.baseurl}}/assets/aha2140/collision-analysis-1.html)
 
 
-[R Markdown source]({{baseurl}}/assets/aha2140/collision-analysis-1.rmd)
+[R Markdown source]({{site.baseurl}}/assets/aha2140/collision-analysis-1.rmd)
 
 
 It would interesting to further explore the relationship between the weather phenomena and vehicle collisions. The data already shows that snow days have an outsized effect and we can already see that from the data. I have been living and driving around NYC for last 16 years and my hunch is that weather definitely plays a role. For example, I noticed that the first significant snowfall of the year causes a lot of accidents. Sleet and black ice are also big contributing factors. So, it would be great to see what this dataset say about that. 
