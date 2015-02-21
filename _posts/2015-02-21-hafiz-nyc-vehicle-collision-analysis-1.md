@@ -21,5 +21,5 @@ It would interesting to further explore the relationship between the weather phe
 To that end, I've reached  out to the folks who run [forecast.io](forecast.io).  They confirmed that we can get historical hourly weather data (temperature, pressure, rainfall etc) using their API. It looks like Weather Underground has a nice API so that could work as well. If you ahve spare cycles and want to work on this please shoot me an email.
 
 
-One final nugget. It's about  :zap: :snowflake: :zap: [S-N-O-W-M-A-G-E-D-D-O-N 2015](http://nypost.com/tag/snowmageddon-2015/) :zap: :snowflake: :zap: (que to Jon Stewert doing a facepalm). We had this great weather non-event event at the end of January. Interesting fact: it had an outsized effect on vehicle collision rates. Of course! NYC was forced off the roads and the number of collisions took a dive (exercise to the reader: spot that in one of the plots). 
+One final nugget. It's about [S-N-O-W-M-A-G-E-D-D-O-N 2015](http://nypost.com/tag/snowmageddon-2015/) (que to Jon Stewert doing a facepalm). We had this great weather non-event event at the end of January. Interesting fact: it had an outsized effect on vehicle collision rates. Of course! NYC was forced off the roads and the number of collisions took a dive (exercise to the reader: spot that in one of the plots). 
 
