@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 # NYC Collision Data Investigation
 In this analysis I look at data from the NYPD Collisions Data Set for 2014 and 2015 through February 10.
 
@@ -45,7 +49,7 @@ nyc <- ggplot(data, aes(LONGITUDE, LATITUDE, color = BOROUGH))
 nyc + geom_point(alpha = 0.2, size = 1) + guides(color = guide_legend(override.aes = list(alpha = 1, size = 3)))
 ```
 
-![](nyc_collisions_files/figure-html/unnamed-chunk-3-1.png) 
+![](https://raw.githubusercontent.com/jmrosen155/edav/gh-pages/_posts/nyc_collisions_files/figure-html/unnamed-chunk-3-1.png) 
 
 ```r
 nycmap <- get_map("New York City", zoom=11)
@@ -55,7 +59,7 @@ nyc1 <- nyc1 + guides(color = guide_legend(override.aes = list(alpha = 1, size =
 nyc1
 ```
 
-![](nyc_collisions_files/figure-html/unnamed-chunk-3-2.png) 
+![](https://raw.githubusercontent.com/jmrosen155/edav/gh-pages/_posts/nyc_collisions_files/figure-html/unnamed-chunk-3-2.png) 
 
 Now I have a look at fatal accidents broken down by who was killed (i.e. cyclist, motorist, or pedestrian)
 
@@ -73,7 +77,7 @@ nyc1 <- nyc1 + scale_color_discrete(name = "Fatal Accidents") +
 nyc1
 ```
 
-![](nyc_collisions_files/figure-html/unnamed-chunk-4-1.png) 
+![](https://raw.githubusercontent.com/jmrosen155/edav/gh-pages/_posts/nyc_collisions_files/figure-html/unnamed-chunk-4-1.png) 
 
 Now I am going to look at accidents by time of day and borough
 
@@ -85,6 +89,6 @@ ggplot(data, aes(x=format(as.POSIXct(as.character(data$TIME), format = "%H:%M"),
   xlab('Time of day')
 ```
 
-![](nyc_collisions_files/figure-html/unnamed-chunk-5-1.png) 
+![](https://raw.githubusercontent.com/jmrosen155/edav/gh-pages/_posts/nyc_collisions_files/figure-html/unnamed-chunk-5-1.png) 
 
 Looks like most accidents happen between around 6am and 7pm. There are slightly fewer accidents in the middle of the day while people are at work. There is also somewhat of a peak around 1am when people may be returning home from bars.

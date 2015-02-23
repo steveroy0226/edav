@@ -1,15 +1,11 @@
-### NYPD Motor Vehicle Collisions API
+---
+author: Dennis Lyubyvy
+layout: post
+description: mini-assignment
+---
 
----
-Author: Dennis Lyubyvy
-Email: dvl2110@columbia.edu
-Columbia University Spring 2015
-Course: W4701 Exploratory Data Analysis and Visualization
-Instructor: Michael J. Malecki
-Feb 12, 2015
-Code: https://github.com/denniskorablev/NYPD-Motor-Vehicle-Collisions-API-for-R 
-Data source: http://dev.socrata.com/foundry/#/data.cityofnewyork.us/h9gi-nx95
----
+
+### NYPD Motor Vehicle Collisions API
 
 Additional comment: the problem definition was 'Get an api key and write a script that makes a query'
 However in order to get API key you have to setup web-address from which you will do the query
