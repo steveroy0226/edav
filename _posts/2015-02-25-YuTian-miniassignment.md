@@ -38,6 +38,7 @@ colnames(injury_type) <- c("PEDESTRIANS","CYCLIST","MOTORIST")
 
 1. A bar plot showing total number of different injuries.
 
+
 ```
 barplot(injury_type, width = 1, border = par("fg"), axisnames = TRUE,
 cex.axis = par("cex"), cex.names = par("cex.axis"))
