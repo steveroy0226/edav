@@ -36,7 +36,7 @@ injury_type <- cbind(sum(test$NUMBER.OF.PEDESTRIANS.INJURED),sum(test$NUMBER.OF.
 colnames(injury_type) <- c("PEDESTRIANS","CYCLIST","MOTORIST")
 ```
 
-1. A bar plot showing total number of different injuries.
+A bar plot showing total number of different injuries.
 
 
 ```
@@ -46,7 +46,7 @@ cex.axis = par("cex"), cex.names = par("cex.axis"))
 
 ![](https://raw.githubusercontent.com/YuTian9/edav/gh-pages/_posts/yt_pngs/Rplot1.png)
 
-2. A pie chart showing proportion of different injuries.
+A pie chart showing proportion of different injuries.
 
 ```r
 # pie chart of different types of injuries
