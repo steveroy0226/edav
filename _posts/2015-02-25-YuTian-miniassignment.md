@@ -107,6 +107,7 @@ ggplot(df,aes(x = as.character(month), y = PERSONS ,fill = BOROUGH )) +
 geom_bar(stat = "identity") +
 labs (titles = 'All Injuries in Each Borough of NYC', x = 'Month', y = 'Injuries' ) 
 ```
+![](https://raw.githubusercontent.com/YuTian9/edav/gh-pages/_posts/yt_pngs/Rplot05.png
 
 (2) Stacked bar for number of all injuries in 7 boroughs:
 ```{r fig.width=7, fig.height=4, echo=FALSE }
@@ -115,6 +116,7 @@ ggplot(df,aes(x = as.character(month), y = PEDESTRIANS ,fill = BOROUGH )) +
 geom_bar(stat = "identity") +
 labs (titles = 'Pedestrain Injuries in Each Borough of NYC', x = 'Month', y = 'Pedestrain Injuries' ) 
 ```
+![](https://raw.githubusercontent.com/YuTian9/edav/gh-pages/_posts/yt_pngs/Rplot06.png)
 
 (3) Stacked bar for number of all injuries in 7 boroughs:
 ```{r fig.width=7, fig.height=4, echo=FALSE }
@@ -123,6 +125,7 @@ ggplot(df,aes(x = as.character(month), y = CYCLIST ,fill = BOROUGH )) +
 geom_bar(stat = "identity") +
 labs (titles = 'Cyclist Injuries in Each Borough of NYC', x = 'Month', y = 'Cyclist Injuries' ) 
 ```
+![](https://raw.githubusercontent.com/YuTian9/edav/gh-pages/_posts/yt_pngs/Rplot07.png)
 
 (4) Stacked bar for number of all injuries in 7 boroughs:
 ```{r fig.width=7, fig.height=4, echo=FALSE }
@@ -131,6 +134,6 @@ ggplot(df,aes(x = as.character(month), y = MOTORIST ,fill = BOROUGH )) +
 geom_bar(stat = "identity") +
 labs (titles = 'Motorist Injuries in Each Borough of NYC', x = 'Month', y = 'Motorist Injuries' ) 
 ```
-
+![](https://raw.githubusercontent.com/YuTian9/edav/gh-pages/_posts/yt_pngs/Rplot08.png)
 
 
