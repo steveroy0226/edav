@@ -11,7 +11,7 @@ Mini assignment -- A visualized analysis of injuries involved in vehicle collisi
 -------------
 
 Load libraries and NYPD data.
-```r
+```
 library(plotrix)
 library(plyr)
 library(ggplot2)
