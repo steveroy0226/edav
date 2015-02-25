@@ -11,11 +11,10 @@ Mini assignment -- A visualized analysis of injuries involved in vehicle collisi
 -------------
 
 Load libraries and NYPD data.
-```
+```r
 library(plotrix)
 library(plyr)
 library(ggplot2)
-
 setwd("~/Documents/QMSS/2015spring/DataViz/miniassignment/")
 crashes <- read.csv('crashes.csv', header=TRUE)
 test <- crashes
@@ -59,16 +58,15 @@ PERSONS <- ddply(test, c("DATE","BOROUGH"), summarise, PERSONS = sum(NUMBER.OF.P
 PEDESTRIANS <- ddply(test, c("DATE","BOROUGH"), summarise, PEDESTRIANS = sum(NUMBER.OF.PEDESTRIANS.INJURED))
 CYCLIST <- ddply(test, c("DATE","BOROUGH"), summarise, CYCLIST = sum(NUMBER.OF.CYCLIST.INJURED))
 MOTORIST <- ddply(test, c("DATE","BOROUGH"), summarise, MOTORIST = sum(NUMBER.OF.MOTORIST.INJURED))
-
+```
+```r
 data_daily <- merge(PERSONS,PEDESTRIANS,by=c('DATE','BOROUGH'))
 data_daily <- merge(data_daily,CYCLIST,by=c('DATE','BOROUGH'))
 data_daily <- merge(data_daily,MOTORIST,by=c('DATE','BOROUGH'))
-
 data_daily$PERCENT.PEDESTRIANS <- data_daily$PEDESTRIANS/data_daily$PERSONS
 data_daily$PERCENT.CYCLIST <- data_daily$CYCLIST/data_daily$PERSONS
 data_daily$PERCENT.MOTORIST <- data_daily$MOTORIST/data_daily$PERSONS
 data_daily$DATE <- as.Date(data_daily$DATE, format ="%m/%d/%Y")
-
 ordered_data <- data_daily[order(data_daily$DATE),]
 ```
 
