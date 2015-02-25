@@ -88,7 +88,7 @@ geom_line()# basic graphical object
 
 However, the chart is pretty hard to read... So I tried a bunch of different things in the next section.
 
-# III. Stached bars.
+# III. Stacked bars.
 
 The first thing I did is to reshape the data frame to get the monthly injury data for each subdistrict in NYC.
 ```r
