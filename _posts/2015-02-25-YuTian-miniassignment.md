@@ -78,7 +78,7 @@ data_daily$DATE <- as.Date(data_daily$DATE, format ="%m/%d/%Y")
 ordered_data <- data_daily[order(data_daily$DATE),]
 ```
 
-1. A time series plot of total injuries changing over time.
+A time series plot of total injuries changing over time.
 
 ```
 ggplot(ordered_data, aes(x=DATE,y=PERSONS)) +       
@@ -87,7 +87,7 @@ geom_line()# basic graphical object
 
 ![](https://raw.githubusercontent.com/YuTian9/edav/gh-pages/_posts/yt_pngs/Rplot3.png)
 
-2. A time series plot of pedestrians injury rates from July to September looks like this: (grouped by different subdistricts in New York City)
+A time series plot of pedestrians injury rates from July to September looks like this: (grouped by different subdistricts in New York City)
 
 ```
 ggplot(ordered_data[1:552,], aes(x=DATE,y=PERCENT.PEDESTRIANS, group =BOROUGH, color=BOROUGH)) +       
