@@ -111,7 +111,7 @@ ggplot(df,aes(x = as.character(month), y = PERSONS ,fill = BOROUGH )) +
 geom_bar(stat = "identity") +
 labs (titles = 'All Injuries in Each Borough of NYC', x = 'Month', y = 'Injuries' ) 
 ```
-![](https://raw.githubusercontent.com/YuTian9/edav/gh-pages/_posts/yt_pngs/Rplot05.png
+![](https://raw.githubusercontent.com/YuTian9/edav/gh-pages/_posts/yt_pngs/Rplot05.png)
 
 (2) Stacked bar for number of all injuries in 7 boroughs:
 ```{r fig.width=7, fig.height=4, echo=FALSE }
