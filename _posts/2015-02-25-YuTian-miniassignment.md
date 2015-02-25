@@ -40,12 +40,14 @@ colnames(injury_type) <- c("PEDESTRIANS","CYCLIST","MOTORIST")
 barplot(injury_type, width = 1, border = par("fg"), axisnames = TRUE,
 cex.axis = par("cex"), cex.names = par("cex.axis"))
 ```
+![](https://raw.githubusercontent.com/YuTian9/edav/gh-pages/_posts/yt_pngs/Rplot1.png)
 
 2. A pie chart showing proportion of different injuries.
 ```r
 # pie chart of different types of injuries
 pie3D(injury_type,labels=colnames(injury_type),explode=0.1, main="Pie Chart of Injuries ")
 ```
+![](https://raw.githubusercontent.com/YuTian9/edav/gh-pages/_posts/yt_pngs/Rplot2.png)
 
 # II. Injuries chaning over time.
 
@@ -75,12 +77,14 @@ ordered_data <- data_daily[order(data_daily$DATE),]
 ggplot(ordered_data, aes(x=DATE,y=PERSONS)) +       
 geom_line()# basic graphical object
 ```
+![](https://raw.githubusercontent.com/YuTian9/edav/gh-pages/_posts/yt_pngs/Rplot3.png)
 
 2. A time series plot of pedestrians injury rates from July to September looks like this: (grouped by different subdistricts in New York City)
 ```r 
 ggplot(ordered_data[1:552,], aes(x=DATE,y=PERCENT.PEDESTRIANS, group =BOROUGH, color=BOROUGH)) +       
 geom_line()# basic graphical object
 ```
+![](https://raw.githubusercontent.com/YuTian9/edav/gh-pages/_posts/yt_pngs/Rplot4.png)
 
 However, the chart is pretty hard to read... So I tried a bunch of different things in the next section.
 
