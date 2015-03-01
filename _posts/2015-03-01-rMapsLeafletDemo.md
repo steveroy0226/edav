@@ -9,7 +9,7 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 <section>
 	<section>
 # rMaps and Leaflet Presentation
-[![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample.png)](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample.png)
+[![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample.png)](http://rpubs.com/mbisaha/63535)
 
 </section>
 	<section>
