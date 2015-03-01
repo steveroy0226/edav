@@ -11,7 +11,7 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 # rMaps and Leaflet Presentation
 </section>
 	<section>
-## rMaps
+## rMaps and Leaflet links to get you started
 * [*rMaps*](http://rmaps.github.io)
 * [*Leaflet*](http://leafletjs.com)
 * [*Leaflet for R*](http://rstudio.github.io/leaflet/)
