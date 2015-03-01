@@ -46,15 +46,17 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 - *Very* preliminary library with a ton of potential
 - Powerful in the right hands
 
+
 ###  The Bad:
 - Confusing and hard to get started on.
-- Not being a front end Java Script developer will make customization very difficult.
-- Formatting data and correcting data type issues can be time consuming.
+- Customization very difficult without working JS Knowledge.
+- Formatting data and correcting data type issues.
+
 
 ### The Ugly:
-- Package is in an undocumented state with few examples to work from.
+- Package is in an undocumented state with few examples.
 - [!Existing samples don't currently work.](http://bl.ocks.org/ramnathv/raw/8970935/mymap.html)
-- https://github.com/ramnathv/rMaps/issues/1
+- [!Author is active but many bugs persist.](https://github.com/ramnathv/rMaps/issues/1)
 		
 </section>
 </section>
