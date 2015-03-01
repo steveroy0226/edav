@@ -12,10 +12,10 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 </section>
 	<section>
 ## rMaps and Leaflet links to get you started
-[![](sguleff/rMaps_logo.png?raw=true)](sguleff/rMaps_logo.png?raw=true)
+[![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMaps_logo.png)](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMaps.png)
 - [*rMaps*](http://rmaps.github.io)
 
-[![](sguleff/Leaflet_logo.png?raw=true)](http://leafletjs.com?raw=true)
+[![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/Leaflet_logo.png)](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/Leaflet_logo.png)
 - [*Leaflet*](http://leafletjs.com)
 - [*Leaflet for R*](http://rstudio.github.io/leaflet/)
 </section>
