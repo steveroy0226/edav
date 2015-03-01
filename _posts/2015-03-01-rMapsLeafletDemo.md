@@ -12,9 +12,9 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 </section>
 	<section>
 ## rMaps
-[*rMaps*](http://rmaps.github.io)
-[*Leaflet*](http://leafletjs.com)
-[*Leaflet for R*](http://rstudio.github.io/leaflet/)
+* [*rMaps*](http://rmaps.github.io)
+* [*Leaflet*](http://leafletjs.com)
+* [*Leaflet for R*](http://rstudio.github.io/leaflet/)
 </section>
 </section>
 
