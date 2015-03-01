@@ -3,7 +3,6 @@ layout: pres
 title: Leaflet & rMaps
 author: Sam and Mike
 date: "March 01, 2015"
-output: html_document
 description: Brief intro to rMaps and Leaflet
 tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 ---
