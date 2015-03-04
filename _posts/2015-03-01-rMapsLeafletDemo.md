@@ -8,12 +8,12 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 ---
 <section>
 	<section>
-## rMaps and Leaflet Presentation
+### rMaps and Leaflet Presentation
 [![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample.png)](http://rpubs.com/mbisaha/63535)
 
 </section>
 	<section>
-## rMaps and Leaflet links to get you started
+### rMaps and Leaflet links to get you started
 [![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMaps_logo.png)](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMaps.png)
 
 * [*rMaps*](http://rmaps.github.io)
@@ -27,7 +27,7 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 
 <section>
 	<section>
-# Leaftlet is the best
+### Leaftlet is the best
 </section>
 	<section>
 ### The Good:
@@ -39,7 +39,7 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 
 <section>
 	<section>
-## rMaps
+### rMaps
 [![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample2.png)](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample2.png)
 </section>
 	<section>
@@ -65,13 +65,12 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 
 <section>
 	<section>
-## Sample
+### Sample
 <body>
-	<h1>Hello Plunker!</h1>
-    	<div>
-    		<a href="https://plot.ly/~Vox/17/" target="_blank" title="&lt;br&gt;Cumulative Emissions from Fossil-Fuel and Cement (1870-2013)" style="display: block; text-align: center;"><img src="https://plot.ly/~Vox/17.png" alt="&lt;br&gt;Cumulative Emissions from Fossil-Fuel and Cement (1870-2013)" style="max-width: 100%;width: 680px;"  width="680" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    		<script data-plotly="Vox:17" src="https://plot.ly/embed.js" async></script>
-		</div>
+	<div>
+    	<a href="https://plot.ly/~Vox/17/" target="_blank" title="&lt;br&gt;Cumulative Emissions from Fossil-Fuel and Cement (1870-2013)" style="display: block; text-align: center;"><img src="https://plot.ly/~Vox/17.png" alt="&lt;br&gt;Cumulative Emissions from Fossil-Fuel and Cement (1870-2013)" style="max-width: 100%;width: 680px;"  width="680" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    	<script data-plotly="Vox:17" src="https://plot.ly/embed.js" async></script>
+	</div>
 </body>
 </section>
 </section>
