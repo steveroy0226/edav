@@ -74,10 +74,10 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 
 <section>
 	<section>
-### Shample
+### Shample!
 <body>
 	<div id="payload">
-		<iframe src="//rstudio-pubs-static.s3.amazonaws.com/63535_30379ce310174987a8caeb193725d8a0.html"></iframe>
+		<iframe width="400" height="300" src="//rstudio-pubs-static.s3.amazonaws.com/63535_30379ce310174987a8caeb193725d8a0.html"></iframe>
 	</div>
 </body>
 </section>
