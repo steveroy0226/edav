@@ -64,9 +64,9 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 	<section>
 ### Sample
 <body>
-	<div>
-    	<a href="https://plot.ly/~Vox/17/" target="_blank" title="&lt;br&gt;Cumulative Emissions from Fossil-Fuel and Cement (1870-2013)" style="display: block; text-align: center;"><img src="https://plot.ly/~Vox/17.png" alt="&lt;br&gt;Cumulative Emissions from Fossil-Fuel and Cement (1870-2013)" style="max-width: 100%;width: 680px;"  width="680" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    	<script data-plotly="Vox:17" src="https://plot.ly/embed.js" async></script>
+	<div id="payload">
+		<iframe width="400" height="300" src="//rstudio-pubs-static.s3.amazonaws.com/63535_30379ce310174987a8caeb193725d8a0.html"></iframe>
+		</button>
 	</div>
 </body>
 </section>
