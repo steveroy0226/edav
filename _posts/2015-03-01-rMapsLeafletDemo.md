@@ -67,9 +67,14 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 [*Mexico Crime Data*](http://sguleff.github.io/edav/2015/03/01/rMapsSampleCode2)
 </br>
 [*Additional Examples*](http://sguleff.github.io/edav/2015/03/01/rMapsSampleCode3)
+</section>
+</section>
+<section>
+	<section>
+### Questions
+</section>
+</section>
 
-</section>
-</section>
 
 
 
