@@ -1,7 +1,7 @@
 ---
 title: "Making Maps with Leaflet for R"
 author: "Mike Bisaha"
-date: "March 5, 2015"
+date: "March 05, 2015"
 output: html_document
 layout: post
 description: presentation
