@@ -182,6 +182,10 @@ map3
 
 ```
 
+<iframe chart_1="" height="500" width="800" id="iframe-" class="rChart datamaps " seamless="" scrolling="no" src="
+http://rmaps.github.io/blog/posts/animated-choropleths/fig/autochoro.html
+"></iframe>
+
 Finally let's see how we can render a very similar map with just one call and far less munging
 
 ```
@@ -239,5 +243,7 @@ L2$setTemplate(afterScript = sprintf("
 ))
 L2
 ```
-
+<iframe chart_1="" height="500" width="800" id="iframe-" class="rChart datamaps " seamless="" scrolling="no" src="
+http://rmaps.github.io/blog/posts/animated-choropleths/fig/leaflet_heatmap.html
+"></iframe>
 
