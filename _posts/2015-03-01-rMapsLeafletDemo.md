@@ -72,10 +72,9 @@ creator of rChars, Slidify
 	<section>
 
 
-<H4>The Future:</H4></br>	
-<iframe width="640" height="360" src="http://www.youtube.com/embed/sSbb3PyaSu8?rel=0" frameborder="0" allowfullscreen=""></iframe>
-	
-<H4>Examples:</H4></br>
+<H4>The Future:</H4>
+<iframe width="640" height="360" src="http://www.youtube.com/embed/sSbb3PyaSu8?rel=0" frameborder="0" allowfullscreen=""></iframe>	
+<H4>Examples:</H4>
 [*rMaps Sample Code*](http://sguleff.github.io/edav/2015/03/01/rMapsSampleCode1)
 </br>
 [*Mexico Crime Data*](http://sguleff.github.io/edav/2015/03/01/rMapsSampleCode2)
