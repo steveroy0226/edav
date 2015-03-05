@@ -204,6 +204,10 @@ ichoropleth(Crime ~ State,
 
 ```
 
+<iframe chart_1="" height="500" width="800" id="iframe-" class="rChart datamaps " seamless="" scrolling="no" src="
+http://rmaps.github.io/blog/posts/animated-choropleths/fig/ichropleth.html
+"></iframe>
+
 Let's look at a more simple example of a heatmap of crime data applied over a map 
 of Houston.  Now the rMaps will use the leaflet.js library to render the maps.  All
 customization will be done through leaflet. Notice that the data must be stored in
@@ -244,6 +248,6 @@ L2$setTemplate(afterScript = sprintf("
 L2
 ```
 <iframe chart_1="" height="500" width="800" id="iframe-" class="rChart datamaps " seamless="" scrolling="no" src="
-http://rmaps.github.io/blog/posts/animated-choropleths/fig/leaflet_heatmap.html
+http://rmaps.github.io/blog/posts/leaflet-heat-maps/fig/leaflet_heatmap.html
 "></iframe>
 
