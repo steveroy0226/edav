@@ -1,5 +1,5 @@
 ---
-title: "rMaps sample code to play with"
+title: "rMaps sample code to play with #1"
 author: "Sam Guleff"
 date: "March 01, 2015"
 output: html_document
