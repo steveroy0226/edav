@@ -61,12 +61,10 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 </ul>
 </section>
 	<section>
-* [*rMaps Sample Code*](http://sguleff.github.io/edav/2015/03/01/rMapsSampleCode1)
-* [*Mexico Crime Data*](http://sguleff.github.io/edav/2015/03/01/rMapsSampleCode2)
-* [*Leaflet for R*](http://rstudio.github.io/leaflet/)
-
-
-
+<H4>Examples:</H4></br>
+-[*rMaps Sample Code*](http://sguleff.github.io/edav/2015/03/01/rMapsSampleCode1)
+-[*Mexico Crime Data*](http://sguleff.github.io/edav/2015/03/01/rMapsSampleCode2)
+-[*Additional Examples*](http://sguleff.github.io/edav/2015/03/01/rMapsSampleCode2)
 
 </section>
 </section>
