@@ -39,7 +39,7 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 
 <section>
 	<section>
-### rMaps
+### rMaps!
 [![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample2.png)](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample2.png)
 </section>
 	
