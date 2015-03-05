@@ -59,10 +59,6 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 - [Author is active but many bugs persist.](https://github.com/ramnathv/rMaps/issues/1)	
 
 </section>
-	<section>
-###### rMaps with Mexico Crime Dataset: 
-[*rMaps Mexico Crime data*]http://embed.plnkr.co/rdBprmBzLPIrVvCVyJ7I/preview
-</section>
 </section>
 
 <section>
