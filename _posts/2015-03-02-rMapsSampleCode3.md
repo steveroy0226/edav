@@ -62,7 +62,9 @@ plotData$State <- as.character(plotData$State)
 
 ```
 Call rMaps and output map
+
 ```
+
 ## set date for the ichoropleth map
 library("rMaps")
 d1 <- ichoropleth(Count ~ State, data = plotData, ncuts = 8, pal = 'YlOrRd', 
