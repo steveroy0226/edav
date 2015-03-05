@@ -43,7 +43,7 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 [![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample2.png)](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample2.png)
 </section>
 	<section>
-**The Good:** 
+<H4>The Good:</H4>
 <ul>
   <li>Very preliminary library with a ton of potential</li>
   <li>Powerful in the right hands</li>
