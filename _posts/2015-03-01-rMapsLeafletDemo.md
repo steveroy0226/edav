@@ -47,8 +47,8 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 ###### What is rMaps?
 [![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample2.png)](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample2.png)
 
-Developed by Ramnath Vaidyanathan
-creator of rChars, Slidify
+*Developed by Ramnath Vaidyanathan
+*creator of rChars, Slidify
 
 </section>
 	<section>
