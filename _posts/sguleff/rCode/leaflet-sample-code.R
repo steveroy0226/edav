@@ -72,4 +72,14 @@ m %>% addTiles() %>% addLines(data=countylines)
 m %>% addPolylines(data=countylines, weight = 2, color = "white")
 
 ##Combine multiple features into single graph
-
+m = m %>% addPolygons(data=countylines, fill = TRUE, color = "green", fillOpacity= 0.1, stroke = FALSE)
+m = m  %>% addPolylines(data=countylines, weight = 2, color = "white")
+m = m  %>% addCircleMarkers(data = subset(NOx_NY, Source.Type == "Airport"), 
+                       radius = ~Emissions.in.Tons/80, 
+                       color = 'red')
+m = m %>% addCircleMarkers(data = subset(NOx_NY, Source.Type == "Electricity Generation via Combustion"), 
+                       radius = ~Emissions.in.Tons/80, 
+                       color = 'blue')
+m = m %>% addMarkers(rowmax[1,2], rowmax[1,1], 
+                 icon = JS("L.icon({iconUrl: 'http://www.grinningplanet.com/2004/04-20/industry-camera-thumb.gif', iconSize: [30,30]})"))
+m
