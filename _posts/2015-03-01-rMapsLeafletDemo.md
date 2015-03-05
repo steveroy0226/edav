@@ -40,7 +40,7 @@ tags: Mike Bisaha, Sam Guleff, rMaps, Leaflet, Class Presentation
 <li> Leaflet for R: This package is young and still under active development, so feature set isn't fully fleshed out. </li>
     </section>
     <section>
-
+* [*Leaflet for R Walkthrough/Demo*](http://rpubs.com/bisaha/64077)
     </section>
 </section>
 
