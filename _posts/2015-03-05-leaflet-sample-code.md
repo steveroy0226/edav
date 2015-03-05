@@ -4,8 +4,6 @@ author: "Mike Bisaha"
 date: "March 05, 2015"
 output: html_document
 layout: post
-description: presentation
-tags: assignments, Mike Bisaha, leaflet, leafletJS, leaflet for R, presentation, EPA, shapefile, borders
 ---
 
 File with complete R code can be found here:
