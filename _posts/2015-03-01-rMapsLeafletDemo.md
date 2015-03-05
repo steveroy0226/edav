@@ -43,17 +43,17 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 [![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample2.png)](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample2.png)
 </section>
 	<section>
-<b>The Good:</b>
+<H4>The Good:</H4>
 <ul>
   <li>Very preliminary library with a ton of potential.</li>
   <li>Powerful in the right hands.</li>
-</ul></br>
-<b>The Bad:</b>
+</ul>
+<H4>The Bad:</H4>
 <ul>
   <li>Customization very difficult without working JS Knowledge.</li>
   <li>Formatting data and correcting data type issues. </li>
-</ul></br>
-<b>The Ugly:</b>
+</ul>
+<H4>The Ugly:</H4>
 <ul>
   <li>Package is in an undocumented state with few examples.</li>
   <li><a href="http://bl.ocks.org/ramnathv/raw/8970935/mymap.html">Existing samples don't currently work.</a></li>
