@@ -30,18 +30,18 @@ tags: Mike Bisaha, Sam Guleff, rMaps, Leaflet, Class Presentation
 ###### What is Leaflet?
 <li> <a href="http://leafletjs.com">LeafletJS</a> is a JavaScript library for creating interactive maps and mapping applications. </li>
 <li> <a href="http://rstudio.github.io/leaflet/">Leaflet for R</a> is an R package that leverages the LeafletJS library to allow simple creation of interactive maps directly from data in R. </li>
-    </section>
-	<section>
+</section>
+<section>
 ###### The Good:
 <li> LeafletJS: A more mature library that allows for fine control of basic map functions. Requires a working knowledge of JavaScript. </li>
 <li> Leaflet for R: An intuitive and powerful package that can be picked up quickly by R users. Building interactive maps takes only a few lines of code. </li>
 ######  The Bad:
 <li> LeafletJS: Harder to pick up without working JS knowledge. Features great for basic mapping, but more complext styles are difficult, if even possible. </li>
 <li> Leaflet for R: This package is young and still under active development, so feature set isn't fully fleshed out. </li>
-    </section>
-    <section>
+</section>
+<section>
 * [*Leaflet for R Walkthrough/Demo*](http://rpubs.com/bisaha/64077)
-    </section>
+</section>
 </section>
 
 <section>
@@ -89,9 +89,3 @@ tags: Mike Bisaha, Sam Guleff, rMaps, Leaflet, Class Presentation
 ### Questions
 </section>
 </section>
-
-
-
-
-
-
