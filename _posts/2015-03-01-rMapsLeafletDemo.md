@@ -8,12 +8,12 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 ---
 <section>
 	<section>
-### rMaps and Leaflet Presentation
+###### rMaps and Leaflet Presentation
 [![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample.png)](http://rpubs.com/mbisaha/63535)
 
 </section>
 	<section>
-### rMaps and Leaflet links to get you started
+###### rMaps and Leaflet links to get you started
 [![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMaps_logo.png)](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMaps.png)
 
 * [*rMaps*](http://rmaps.github.io)
@@ -27,12 +27,12 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 
 <section>
 	<section>
-### Leaftlet is the best
+###### Leaftlet is the best
 </section>
 	<section>
-### The Good:
+###### The Good:
 		
-###  The Bad:
+######  The Bad:
 
 </section>
 </section>
@@ -59,6 +59,12 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
   <li><a href="http://bl.ocks.org/ramnathv/raw/8970935/mymap.html">Existing samples don't currently work.</a></li>
   <li><a href="(https://github.com/ramnathv/rMaps/issues/1">Author is active but many bugs persist.</a></li>
 </ul>
+</section>
+	<section>
+
+* [*Mexico Crime Data*](http://leafletjs.com)
+* [*Leaflet for R*](http://rstudio.github.io/leaflet/)
+
 </section>
 </section>
 
