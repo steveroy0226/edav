@@ -42,7 +42,8 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 ### rMaps
 [![](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample2.png)](https://raw.githubusercontent.com/sguleff/edav/gh-pages/_posts/sguleff/rMapsExample2.png)
 	</section>
-<section>
+	
+	<section>
 ###### The Good: 
 - Very preliminary library with a ton of potential
 - Powerful in the right hands  
@@ -57,18 +58,17 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 - [Existing samples don't currently work.](http://bl.ocks.org/ramnathv/raw/8970935/mymap.html)
 - [Author is active but many bugs persist.](https://github.com/ramnathv/rMaps/issues/1)	
 
-</section>
+	</section>
+	<section>
+###### rMaps with Mexico Crime Dataset: 
+[*rMaps Mexico Crime data*]http://embed.plnkr.co/rdBprmBzLPIrVvCVyJ7I/preview
+	</section>
 </section>
 
 <section>
 	<section>
-### Sample
-<body>
-	<div id="payload">
-		<iframe width="400" height="300" src="//rstudio-pubs-static.s3.amazonaws.com/63535_30379ce310174987a8caeb193725d8a0.html"></iframe>
-		</button>
-	</div>
-</body>
+###### Sample
+
 </section>
 </section>
 
