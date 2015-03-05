@@ -85,7 +85,7 @@ d1$set(
 d1
 d1$save('rMapsMexicoDataMap.html', cdn = TRUE)
 ```
-<iframe chart_1="" height="700" width="600" id="iframe-" class="rChart datamaps " seamless="" scrolling="no" src="
+<iframe chart_1="" height="600" width="650" id="iframe-" class="rChart datamaps " seamless="" scrolling="no" src="
 http://embed.plnkr.co/rdBprmBzLPIrVvCVyJ7I/preview
 "></iframe>
 
