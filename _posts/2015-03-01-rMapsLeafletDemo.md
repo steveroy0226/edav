@@ -44,8 +44,10 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 </section>
 	<section>
 **The Good:** 
-* Very preliminary library with a ton of potential
-* Powerful in the right hands  
+<ul>
+  <li>Very preliminary library with a ton of potential</li>
+  <li>Powerful in the right hands</li>
+</ul>
 
 **The Bad:** 
 * Confusing and hard to get started on.
