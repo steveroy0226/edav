@@ -57,7 +57,7 @@ tags: Mike, Sam Guleff, rMaps, Leaflet, Class Presentation
 <ul>
   <li>Package is in an undocumented state with few examples.</li>
   <li><a href="http://bl.ocks.org/ramnathv/raw/8970935/mymap.html">Existing samples don't currently work.</a></li>
-  <li><a href="(https://github.com/ramnathv/rMaps/issues/1">Author is active but many bugs persist.</a></li>
+  <li><a href="https://github.com/ramnathv/rMaps/issues/1">Author is active but many bugs persist.</a></li>
 </ul>
 </section>
 	<section>
