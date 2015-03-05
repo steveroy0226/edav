@@ -1,7 +1,7 @@
 ---
 title: "rMaps sample code to play with"
 author: "Sam Guleff"
-date: "March 01, 2014"
+date: "March 01, 2015"
 output: html_document
 layout: post
 description: mini-assignment
