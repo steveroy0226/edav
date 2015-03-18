@@ -1,5 +1,5 @@
 ---
-title: "Blogpost Assingment Placeholder"
+title: "Blogpost Assignment Placeholder"
 author: "Robert Piccone"
 output: html_document
 layout: post
