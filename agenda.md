@@ -103,12 +103,12 @@ Please choose two or three of these and come prepared with reactions and questio
 ## 2015-03-26 blogposts presentations
 
              
-## 2015-03-31 web services/python *conflict*
+## 2015-03-31 web services/python
 
 > - Presentation: scraping something with beautifulsoup
 > - Presentation: using twitter or yelp with python
 
-## 2015-04-02 web services/r *conflict*
+## 2015-04-02 web services/r
 
 > - Presentation: twitteR and Rfacebook
 > - Presentation: scraping with rvest
