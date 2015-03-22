@@ -52,7 +52,7 @@ Finally, green and blue are used to contrast the Denisovan data from the Neander
 This allows the dotted circle outlines to be always be visible, while keeping the blue/green contrast between Neanderthal and Denisovan consistent.
 
 I created this graphic with ggplot2 in R markdown with this code:
-<code>
+<pre>
 library(ggplot2)
 makeCircle <- function(center = c(0,0),area = 100, npoints = 100){
 	r <- sqrt(area/pi)
@@ -83,4 +83,4 @@ thePlot = thePlot + annotate("text", x = 3, y = 0, label = paste(neanderthalPct,
 thePlot = thePlot + annotate("text", x = -3, y = 0, label = paste(denisovanPct,"%"))
 thePlot = thePlot + guides(color = guide_legend(override.aes = list(linetype=c(3,3,0,0), fill=c("white", "white", "light green", "light blue"))))
 thePlot
-</code>
+</pre>
