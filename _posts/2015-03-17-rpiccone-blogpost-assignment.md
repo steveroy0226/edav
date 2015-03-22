@@ -7,7 +7,7 @@ description: Graph Critique and Improvement blog post
 tags: assignments
 ---
 
-I recently submitted a DNA sample to National Geographic's Genographic Project. https://genographic.nationalgeographic.com/about/
+I recently submitted a DNA sample to National Geographic's <a href="https://genographic.nationalgeographic.com/about/">Genographic Project</a>. 
 The project mission is certainly a worthy one, but the results provided back to participants could use a little more detail and polish.
 
 One of the charts The Genographic Project provides is your hominin ancestry - that is, the percentages of your DNA purported to be of Neanderthal and Denisovan origin respectively.
@@ -15,6 +15,7 @@ One of the charts The Genographic Project provides is your hominin ancestry - th
 Here's how they depicted my non-Homo-Sapien-ness:
 
 ![Your Hominin Ancestry]({{ site.url }}/edav/assets/rap2186/piccone-bp1.png)
+Source: https://genographic.nationalgeographic.com/results/dashboard (must be logged in to view actual results)
 
 Where to begin on this?..
 
@@ -25,7 +26,7 @@ The only problem is that those details are contradicted in the following "Explor
 
 The use of a circle and arcs doesn't seem like the best way to convey this information, as it implies that the circle represents a maximum or total amount that holds some significance.
 The surrounding arcs representing the percentages appear to be sized in relative proportion to each other, and they visually seem to make up about 75% of the circle. This would imply that the full circle represents a combined non-Homo-Sapien ancestry of around 7.6%.
-After browsing the entire site, I did find some explanatory details on this page: https://genographic.nationalgeographic.com/v/#Hominin which states "you may find you have a small percentage (between 0 to 8 percent) of Neanderthal or Denisovan ancestry".
+After browsing the entire site, I did find some explanatory details on <a href="https://genographic.nationalgeographic.com/v/#Hominin">this page</a>:  which states "you may find you have a small percentage (between 0 to 8 percent) of Neanderthal or Denisovan ancestry".
 This at least explains the choice and the significance of the circle, but even if they were to include that detail on the same page as the graph (or at the very least link directly to it) I still don't think this is an effective data visualization. I have serious doubts that the purported upper limit of 8% is in any way meaningful, because
 there is no information provided on the the standard deviation, sample size, or methodology used to come up with that figure. My assumption is that the 8% upper limit is a proverbial "black swan" - i.e. it is believed no living human would have a total above 8% because thus far, no human observed has come close to surpassing this amount.
 It states explicitly in the linked "Explore Your Results" page that the science on this is very new, and that your results may change in the future as discoveries are made. This affirms my belief that displaying hominid percentages in the context of a circle representing 8% of the human genome is at worst misleading and at best irrelevant.
@@ -45,7 +46,12 @@ Following is an alternative data visualization I have come up with to address th
 
 The outermost circle represents all of the participant's DNA, and it encompasses 2 inner circles representing their percentages of Denisovan and Neanderthal DNA. 
 Both are labelled with their respective percentage values and sized so that their respective areas are proportional to each other and to the area of the outermost circle.
-In other words, the circle representing 1.9% has an area equal to 1.9% of the outermost circle. The 2 inner circles will be enveloped within the outer circle up to a value of about 21%, which should be sufficient for everyone born in the last 20,000 years or so. :)
+In other words, the circle representing 1.9% has an area equal to 1.9% of the outermost circle. The 2 inner circles will be enveloped within the outer circle up to a value of about 21%, which should be sufficient for everyone born in the last 20,000 years or so.
+The average observed percentages for Neanderthal and Denisovan DNA are depicted with dotted outlines of circles centered over the circles representing their respective actual results for the participant, and are sized to the same scale, making the comparison of actual to average results visually accurate and obvious.
+Finally, green and blue are used to contrast the Denisovan data from the Neandertal data, with light blue/light green used for the result value circles and dark blue/dark green used for the average value circles.
+This allows the dotted circle outlines to be always be visible, while keeping the blue/green contrast between Neanderthal and Denisovan consistent.
 
 I created this graphic with ggplot2 in R markdown with this code:
-
+<code>
+![Your Hominin Ancestry]({{ site.url }}/edav/assets/rap2186/hominin_dna_dv.rmd)
+</code>
