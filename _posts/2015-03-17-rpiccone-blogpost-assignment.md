@@ -1,5 +1,5 @@
 ---
-title: "Graph Critique and Improvement: The Genographic Project"
+title: "Robert Piccone's Graph Critique and Improvement: The Genographic Project"
 author: "Robert Piccone"
 output: html_document
 layout: post
