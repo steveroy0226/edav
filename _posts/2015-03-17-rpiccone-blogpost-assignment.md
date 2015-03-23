@@ -15,11 +15,11 @@ One of the charts The Genographic Project provides is your hominin ancestry - th
 Here's how they depicted my non-Homo-Sapien-ness:
 
 ![Your Hominin Ancestry]({{ site.url }}/edav/assets/rap2186/piccone-bp1.png)
-Source: https://genographic.nationalgeographic.com/results/dashboard (must be logged in to view actual results)
+<cite>Source: https://genographic.nationalgeographic.com/results/dashboard (must be logged in to view actual results)</cite>
 
 Where to begin on this?..
 
-I find the varying blue/gray hues to be distractingly similar to each other, and to make matters worse, the hue of the stated percentage does not match its corresponding arc. 
+I find the series of blue-grey hues to be distractingly similar to each other, and to make matters worse, the hue of the stated percentage does not match its corresponding arc. 
 
 The 3rd and outermost arc along with the text at the bottom would seem to depict 2.1% as the average amount of both Neanderthal and Denisovan DNA for all humans born outside of Africa.
 The only problem is that those details are contradicted in the following "Explore Your Results" page (more on that to follow).
@@ -34,6 +34,7 @@ It states explicitly in the linked "Explore Your Results" page that the science 
 Moving on to the "Explore Your Results" page...
 
 ![Explore Your Results]({{ site.url }}/edav/assets/rap2186/piccone-bp2.png)
+<cite>Source: https://genographic.nationalgeographic.com/results/dashboard (must be logged in to view actual results)</cite>
 
 The text is interesting enough, but it states clearly that "Most non-Africans are about 2 percent Neanderthal and slightly less than 2 percent Denisovan". 
 So why was the 2.1% arc double labelled as the average for both Neanderthal and Denisovan in the results chart? Is this supposed to be an "average of averages" or was it a flat-out error?
@@ -48,7 +49,7 @@ The outermost circle represents all of the participant's DNA, and it encompasses
 Both are labelled with their respective percentage values and sized so that their respective areas are proportional to each other and to the area of the outermost circle.
 In other words, the circle representing 1.9% has an area equal to 1.9% of the outermost circle. The 2 inner circles will be enveloped within the outer circle up to a value of about 21%, which should be sufficient for everyone born in the last 20,000 years or so.
 The average observed percentages for Neanderthal and Denisovan DNA are depicted with dotted outlines of circles centered over the circles representing their respective actual results for the participant, and are sized to the same scale, making the comparison of actual to average results visually accurate and obvious.
-Finally, green and blue are used to contrast the Denisovan data from the Neandertal data, with light blue/light green used for the result value circles and dark blue/dark green used for the average value circles.
+Finally, green and blue are used to contrast the Denisovan data from the Neanderthal data, with light blue/light green used for the result value circles and dark blue/dark green used for the average value circles.
 This allows the dotted circle outlines to be always be visible, while keeping the blue/green contrast between Neanderthal and Denisovan consistent.
 
 I created this graphic with ggplot2 in R markdown with this code:
@@ -84,3 +85,5 @@ thePlot = thePlot + annotate("text", x = -3, y = 0, label = paste(denisovanPct,"
 thePlot = thePlot + guides(color = guide_legend(override.aes = list(linetype=c(3,3,0,0), fill=c("white", "white", "light green", "light blue"))))
 thePlot
 </pre>
+
+The code could plot different results simply by replacing the values of the neanderthalPct and denisovanPct variables in lines 10 and 11. 
