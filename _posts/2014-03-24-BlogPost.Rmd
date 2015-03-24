@@ -18,8 +18,7 @@ The infographics below illustrates the difference between the death tolls of dis
   
 I focused on improving 1 and 2. I used the data reported in the inforgraphics to create my own graphs in R. In total, four graphs were made. I used colors from "i want hue" for two of my graphs.   
 
-![](https://github.com/steveroy0226/edav/blob/gh-pages/_posts/origFig.png?raw=true)
-
+![](https://raw.githubusercontent.com/steveroy0226/edav/gh-pages/_posts/origFig.png)
 ___
 # Improvement with Stacked Bar Chart  
 Stacked bar charts are a close cousin of pie charts. After all, in ggplot, stacked bar charts are only one line of code away from becoming a pie chart. Stacked bar charts are slightly less evil because it is visually easier to compare rectangles in a bar than slices in a circle. In interest of seeing the relative difference among diseases in each category, I made a stacked bar chart.  
