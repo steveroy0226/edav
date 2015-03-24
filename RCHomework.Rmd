@@ -3,6 +3,7 @@ title: "Blog Post"
 author: "Richie Castellanes"
 date: "March 22, 2015"
 output: html_document
+published: false
 ---
 
 This past December, Bloomberg.com released charts that detail how the Russian economy was in a [“world of pain”](http://www.bloomberg.com/politics/articles/2014-12-02/6-charts-that-illustrate-vladimir-putins-world-of-pain). While the six charts and their statements depict a failing Russian economy, they could be improved to deliver a more compelling story.
