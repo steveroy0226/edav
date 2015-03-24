@@ -3,7 +3,9 @@ title: "Title: Bad Graph Critique and Improvement"
 author: "Name: Steven Royce"
 date: "Date: 03/23/2015"
 layout: post
-output: html_document
+output: 
+  html_document:
+    keep_md: true
 ---
 
 ___
@@ -16,12 +18,7 @@ The infographics below illustrates the difference between the death tolls of dis
   
 I focused on improving 1 and 2. I used the data reported in the inforgraphics to create my own graphs in R. In total, four graphs were made. I used colors from "i want hue" for two of my graphs.   
 
-```{r, warning=FALSE, message=FALSE, echo=FALSE,fig.width=8, fig.height=8}
-library(png)
-library(grid)
-img <- readPNG("origFig.png")
-grid.raster(img)
-```
+![](https://github.com/steveroy0226/edav/blob/gh-pages/_posts/origFig.png?raw=true)
 
 ___
 # Improvement with Stacked Bar Chart  
